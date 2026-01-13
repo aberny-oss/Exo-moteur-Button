@@ -73,6 +73,7 @@ int main()
 		SDL_SetRenderDrawColor(renderer, clearColor.r, clearColor.g, clearColor.b, clearColor.a);
 		SDL_RenderClear(renderer);
 
+		//Draw prendre renderer ebn parametre
 		SDL_SetRenderDrawColor(renderer, buttonChangeColorColor.r, buttonChangeColorColor.g, buttonChangeColorColor.b, buttonChangeColorColor.a);
 		SDL_RenderFillRect(renderer, &buttonChangeColorRect);
 
